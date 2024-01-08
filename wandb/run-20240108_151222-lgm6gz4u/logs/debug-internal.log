@@ -1,0 +1,839 @@
+2024-01-08 15:12:29,658 INFO    StreamThr :40420 [internal.py:wandb_internal():86] W&B internal server running at pid: 40420, started at: 2024-01-08 15:12:29.656796
+2024-01-08 15:12:29,659 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status
+2024-01-08 15:12:29,660 INFO    WriterThread:40420 [datastore.py:open_for_write():85] open: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/run-lgm6gz4u.wandb
+2024-01-08 15:12:29,662 DEBUG   SenderThread:40420 [sender.py:send():382] send: header
+2024-01-08 15:12:29,662 DEBUG   SenderThread:40420 [sender.py:send():382] send: run
+2024-01-08 15:12:29,665 DEBUG   SenderThread:40420 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-08 15:12:30,055 INFO    SenderThread:40420 [dir_watcher.py:__init__():211] watching files in: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files
+2024-01-08 15:12:30,055 INFO    SenderThread:40420 [sender.py:_start_run_threads():1136] run started: lgm6gz4u with start time 1704723148.708206
+2024-01-08 15:12:30,064 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: check_version
+2024-01-08 15:12:30,065 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: check_version
+2024-01-08 15:12:30,113 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: run_start
+2024-01-08 15:12:30,114 DEBUG   HandlerThread:40420 [system_info.py:__init__():32] System info init
+2024-01-08 15:12:30,114 DEBUG   HandlerThread:40420 [system_info.py:__init__():47] System info init done
+2024-01-08 15:12:30,114 INFO    HandlerThread:40420 [system_monitor.py:start():194] Starting system monitor
+2024-01-08 15:12:30,115 INFO    SystemMonitor:40420 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-08 15:12:30,115 INFO    HandlerThread:40420 [system_monitor.py:probe():214] Collecting system info
+2024-01-08 15:12:30,116 INFO    SystemMonitor:40420 [interfaces.py:start():190] Started cpu monitoring
+2024-01-08 15:12:30,116 INFO    SystemMonitor:40420 [interfaces.py:start():190] Started disk monitoring
+2024-01-08 15:12:30,116 INFO    SystemMonitor:40420 [interfaces.py:start():190] Started gpu monitoring
+2024-01-08 15:12:30,117 INFO    SystemMonitor:40420 [interfaces.py:start():190] Started memory monitoring
+2024-01-08 15:12:30,118 INFO    SystemMonitor:40420 [interfaces.py:start():190] Started network monitoring
+2024-01-08 15:12:30,142 DEBUG   HandlerThread:40420 [system_info.py:probe():196] Probing system
+2024-01-08 15:12:30,143 DEBUG   HandlerThread:40420 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-08 15:12:30,143 DEBUG   HandlerThread:40420 [system_info.py:probe():244] Probing system done
+2024-01-08 15:12:30,143 DEBUG   HandlerThread:40420 [system_monitor.py:probe():223] {'os': 'Linux-4.18.0-372.32.1.el8_6.x86_64-x86_64-with-glibc2.2.5', 'python': '3.8.6', 'heartbeatAt': '2024-01-08T14:12:30.142859', 'startedAt': '2024-01-08T14:12:22.515417', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'iris-178', 'username': 'maali', 'executable': '/mnt/irisgpfs/users/maali/ultra_env/bin/python', 'cpu_count': 28, 'cpu_count_logical': 28, 'cpu_freq': {'current': 3174.623, 'min': 1000.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 3700.0, 'min': 1000.0, 'max': 3700.0}, {'current': 3700.0, 'min': 1000.0, 'max': 3700.0}, {'current': 3299.901, 'min': 1000.0, 'max': 3700.0}, {'current': 3263.394, 'min': 1000.0, 'max': 3700.0}, {'current': 3700.0, 'min': 1000.0, 'max': 3700.0}, {'current': 3700.0, 'min': 1000.0, 'max': 3700.0}, {'current': 2959.935, 'min': 1000.0, 'max': 3700.0}, {'current': 3700.0, 'min': 1000.0, 'max': 3700.0}, {'current': 2932.916, 'min': 1000.0, 'max': 3700.0}, {'current': 3051.892, 'min': 1000.0, 'max': 3700.0}, {'current': 2953.632, 'min': 1000.0, 'max': 3700.0}, {'current': 3064.1, 'min': 1000.0, 'max': 3700.0}, {'current': 2943.222, 'min': 1000.0, 'max': 3700.0}, {'current': 3062.12, 'min': 1000.0, 'max': 3700.0}, {'current': 2958.202, 'min': 1000.0, 'max': 3700.0}, {'current': 3072.457, 'min': 1000.0, 'max': 3700.0}, {'current': 2950.557, 'min': 1000.0, 'max': 3700.0}, {'current': 3072.056, 'min': 1000.0, 'max': 3700.0}, {'current': 2781.879, 'min': 1000.0, 'max': 3700.0}, {'current': 3057.766, 'min': 1000.0, 'max': 3700.0}, {'current': 2771.974, 'min': 1000.0, 'max': 3700.0}, {'current': 2917.377, 'min': 1000.0, 'max': 3700.0}, {'current': 2767.195, 'min': 1000.0, 'max': 3700.0}, {'current': 2918.145, 'min': 1000.0, 'max': 3700.0}, {'current': 3700.0, 'min': 1000.0, 'max': 3700.0}, {'current': 2873.936, 'min': 1000.0, 'max': 3700.0}, {'current': 3700.0, 'min': 1000.0, 'max': 3700.0}, {'current': 2880.182, 'min': 1000.0, 'max': 3700.0}], 'disk': {'/': {'total': 29.40420913696289, 'used': 13.207721710205078}}, 'gpu': 'Tesla V100-SXM2-16GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'Tesla V100-SXM2-16GB', 'memory_total': 17179869184}, {'name': 'Tesla V100-SXM2-16GB', 'memory_total': 17179869184}], 'memory': {'total': 754.5338554382324}}
+2024-01-08 15:12:30,146 INFO    HandlerThread:40420 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-08 15:12:30,146 INFO    HandlerThread:40420 [system_monitor.py:probe():227] Publishing system info
+2024-01-08 15:12:30,146 DEBUG   HandlerThread:40420 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-08 15:12:30,147 DEBUG   HandlerThread:40420 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-08 15:12:30,149 INFO    HandlerThread:40420 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-08 15:12:30,149 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:12:30,149 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-08 15:12:30,161 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 15:12:30,161 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 15:12:30,203 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:12:30,374 DEBUG   SenderThread:40420 [sender.py:send():382] send: telemetry
+2024-01-08 15:12:30,660 INFO    wandb-upload_0:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/8atl2dbl-wandb-metadata.json
+2024-01-08 15:12:31,056 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:31,056 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-metadata.json
+2024-01-08 15:12:31,057 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/requirements.txt
+2024-01-08 15:12:33,056 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:35,057 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:35,371 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:12:37,058 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:39,059 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:40,417 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:12:41,044 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:41,044 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:41,060 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:42,102 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:42,423 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:12:42,423 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:42,423 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/labels_1_3bb62bb88f8978572d16.jpg with policy now
+2024-01-08 15:12:42,440 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:12:42,440 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:42,440 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/train_batch0_1_e35f1dad3fdf86895a47.jpg with policy now
+2024-01-08 15:12:42,457 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:12:42,457 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:42,458 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/train_batch1_1_b06be849a685b891cb85.jpg with policy now
+2024-01-08 15:12:42,474 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:42,475 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:12:42,475 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/train_batch2_1_4abfc72d352e170cebad.jpg with policy now
+2024-01-08 15:12:42,637 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:42,948 INFO    wandb-upload_0:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/c5x0uz9k-media/images/labels_1_3bb62bb88f8978572d16.jpg
+2024-01-08 15:12:43,048 INFO    wandb-upload_1:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/758tgxri-media/images/train_batch0_1_e35f1dad3fdf86895a47.jpg
+2024-01-08 15:12:43,056 INFO    wandb-upload_2:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/8eb0eop6-media/images/train_batch1_1_b06be849a685b891cb85.jpg
+2024-01-08 15:12:43,061 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:43,061 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/train_batch0_1_e35f1dad3fdf86895a47.jpg
+2024-01-08 15:12:43,061 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/train_batch1_1_b06be849a685b891cb85.jpg
+2024-01-08 15:12:43,062 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/labels_1_3bb62bb88f8978572d16.jpg
+2024-01-08 15:12:43,062 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/train_batch2_1_4abfc72d352e170cebad.jpg
+2024-01-08 15:12:43,062 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media
+2024-01-08 15:12:43,062 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images
+2024-01-08 15:12:43,152 INFO    wandb-upload_3:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/p25st60i-media/images/train_batch2_1_4abfc72d352e170cebad.jpg
+2024-01-08 15:12:43,680 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:43,683 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:43,683 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:43,684 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:43,685 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:43,750 INFO    wandb-upload_2:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/kf9s8ins-media/images/train_batch1_1_b06be849a685b891cb85.jpg
+2024-01-08 15:12:43,822 INFO    wandb-upload_0:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/lrfvqd37-media/images/train_batch0_1_e35f1dad3fdf86895a47.jpg
+2024-01-08 15:12:43,831 INFO    wandb-upload_1:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/lt8qt1v4-media/images/labels_1_3bb62bb88f8978572d16.jpg
+2024-01-08 15:12:43,849 INFO    wandb-upload_3:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/mat04g3q-media/images/train_batch2_1_4abfc72d352e170cebad.jpg
+2024-01-08 15:12:44,062 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:44,399 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:45,062 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:45,162 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 15:12:45,163 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 15:12:45,163 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:12:45,436 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:12:45,438 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:45,439 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:45,440 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:45,440 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:45,441 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:46,063 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:46,630 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:47,064 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:47,678 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:47,679 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:47,679 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:47,679 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:47,680 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:48,065 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:48,415 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:49,065 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:49,440 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:49,440 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:49,441 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:49,441 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:49,442 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:50,066 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:50,183 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:50,483 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:12:51,066 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:51,181 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:51,182 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:51,182 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:51,183 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:51,184 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:51,945 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:52,067 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:52,898 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:52,899 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:52,899 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:52,900 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:52,900 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:53,068 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:53,068 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:53,623 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:54,632 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:54,633 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:54,634 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:54,634 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:54,634 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:55,069 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:55,069 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:55,385 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:55,523 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:12:56,386 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:56,387 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:56,388 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:56,388 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:56,388 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:57,009 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:57,070 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:57,071 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:58,045 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:58,046 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:58,047 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:58,047 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:58,048 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:12:58,071 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:12:58,644 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:59,071 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:12:59,650 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:59,651 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:12:59,652 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:12:59,652 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:12:59,652 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:00,072 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:00,246 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 15:13:00,246 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 15:13:00,249 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:13:00,256 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:00,581 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:01,073 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/config.yaml
+2024-01-08 15:13:01,073 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:01,312 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:01,313 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:01,313 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:01,314 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:01,314 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:02,074 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:02,422 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:03,074 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:03,435 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:03,435 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:03,436 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:03,436 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:03,437 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:04,075 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:04,188 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:05,076 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:05,221 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:05,222 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:05,223 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:05,223 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:05,223 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:05,988 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:05,997 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:06,076 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:06,956 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:06,957 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:06,958 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:06,958 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:06,959 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:07,077 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:07,077 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:07,801 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:08,816 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:08,817 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:08,817 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:08,817 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:08,818 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:09,079 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:09,080 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:09,562 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:10,561 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:10,562 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:10,562 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:10,562 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:10,563 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:11,081 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:11,081 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:11,388 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:11,399 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:12,313 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:12,314 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:12,315 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:12,315 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:12,316 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:12,921 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:13,082 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:13,082 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:13,917 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:13,917 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:13,918 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:13,918 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:13,919 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:14,083 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:14,806 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:15,083 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:15,169 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 15:13:15,169 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 15:13:15,238 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:13:15,803 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:15,804 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:15,804 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:15,805 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:15,805 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:16,084 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:16,357 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:16,435 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:17,085 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:17,310 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:17,311 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:17,311 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:17,311 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:17,312 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:18,086 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:18,272 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:19,086 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:19,291 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:19,292 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:19,293 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:19,293 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:19,293 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:19,876 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:20,087 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:20,839 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:20,840 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:20,840 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:20,841 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:20,841 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:21,088 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:21,088 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:21,411 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:21,496 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:22,389 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:22,390 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:22,390 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:22,391 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:22,391 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:22,963 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:23,089 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:23,090 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:23,976 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:23,977 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:23,977 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:23,978 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:23,978 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:24,090 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:24,657 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:25,091 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:25,602 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:25,603 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:25,603 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:25,603 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:25,604 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:26,092 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:26,216 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:26,515 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:27,092 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:27,199 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:27,200 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:27,200 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:27,201 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:27,201 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:27,770 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:28,093 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:28,774 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:28,774 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:28,775 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:28,775 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:28,776 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:29,094 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:29,094 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:29,424 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:30,119 DEBUG   SystemMonitor:40420 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-08 15:13:30,121 DEBUG   SenderThread:40420 [sender.py:send():382] send: stats
+2024-01-08 15:13:30,167 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 15:13:30,168 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 15:13:30,238 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:13:30,336 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:30,338 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:30,345 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:30,346 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:30,346 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:31,063 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:31,095 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:31,096 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:31,568 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:32,026 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:32,027 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:32,028 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:32,028 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:32,029 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:32,096 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:33,097 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:33,141 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:34,138 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:34,139 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:34,139 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:34,140 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:34,141 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:34,709 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:35,098 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:35,099 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:35,679 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:35,679 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:35,680 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:35,680 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:35,681 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:36,100 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:36,252 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:36,609 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:37,101 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:37,181 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:37,182 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:37,182 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:37,182 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:37,183 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:37,854 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:38,102 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:38,815 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:38,816 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:38,816 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:38,816 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:38,817 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:39,102 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:39,102 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:39,366 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:40,280 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:40,281 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:40,281 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:40,282 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:40,282 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:40,912 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:41,103 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:41,104 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:41,642 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:41,855 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:41,856 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:41,856 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:41,856 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:41,857 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:42,104 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:42,494 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:43,105 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:43,408 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:43,409 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:43,409 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:43,409 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:43,410 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:43,983 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:44,105 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:44,888 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:44,889 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:44,889 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:44,890 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:44,890 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:45,106 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:45,107 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:45,169 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 15:13:45,170 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 15:13:45,239 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:13:46,009 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:46,661 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:46,996 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:46,997 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:46,997 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:46,998 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:46,998 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:47,108 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:47,108 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:47,554 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:48,467 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:48,468 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:48,469 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:48,469 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:48,470 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:49,037 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:49,109 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:49,109 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:49,967 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:49,968 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:49,968 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:49,968 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:49,969 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:50,110 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:50,524 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:51,110 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:51,515 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:51,516 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:51,516 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:51,517 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:51,517 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:51,771 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:52,111 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:52,326 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:53,112 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:53,279 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:53,280 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:53,281 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:53,281 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:53,282 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:53,844 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:54,112 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:54,831 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:54,832 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:54,832 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:54,832 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:54,833 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:55,113 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:55,113 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:55,393 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:56,311 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:56,312 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:56,313 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:56,313 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:56,314 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:57,062 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:57,070 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:13:57,114 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:57,115 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:58,067 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:58,068 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:58,068 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:58,069 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:58,069 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:13:58,115 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:13:58,823 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:59,116 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:13:59,787 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:59,788 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:13:59,788 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:13:59,789 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:13:59,789 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:00,118 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:00,121 DEBUG   SenderThread:40420 [sender.py:send():382] send: stats
+2024-01-08 15:14:00,168 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 15:14:00,168 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 15:14:00,654 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:14:00,774 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:01,119 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:01,788 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:01,789 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:01,789 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:01,789 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:01,790 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:02,077 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:14:02,119 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:02,421 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:03,120 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:03,388 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:03,389 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:03,389 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:03,389 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:03,390 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:03,979 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:04,121 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:04,994 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:04,995 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:04,996 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:04,996 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:04,996 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:05,122 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:05,122 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:05,584 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:06,564 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:06,565 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:06,566 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:06,566 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:06,567 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:07,123 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:07,123 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:07,186 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:07,194 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:14:08,174 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:08,175 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:08,176 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:08,176 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:08,177 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:08,772 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:09,124 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:09,125 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:09,710 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:09,710 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:09,711 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:09,711 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:09,712 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:10,125 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:10,340 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:11,126 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:11,302 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:11,303 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:11,304 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:11,304 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:11,305 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:11,883 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:12,127 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:12,233 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:14:12,826 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:12,827 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:12,827 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:12,828 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:12,828 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:13,127 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:13,128 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:13,426 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:14,438 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:14,439 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:14,439 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:14,439 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:14,440 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:15,076 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:15,129 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:15,129 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:15,537 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 15:14:15,538 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 15:14:15,578 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:14:17,130 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:17,696 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:14:19,132 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:19,229 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,247 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,247 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,247 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/val_batch0_labels_56_30aecef772331a594166.jpg with policy now
+2024-01-08 15:14:19,264 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,264 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,264 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/val_batch0_pred_56_e34cca4514629ccfe614.jpg with policy now
+2024-01-08 15:14:19,281 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,281 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,281 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/val_batch1_labels_56_a264212a2da6f9163c16.jpg with policy now
+2024-01-08 15:14:19,298 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,298 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,298 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/val_batch1_pred_56_c97c76d506634a948cc0.jpg with policy now
+2024-01-08 15:14:19,351 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,352 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,352 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/PR_curve_56_35fc0817eb5000162a34.png with policy now
+2024-01-08 15:14:19,406 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,407 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,407 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/F1_curve_56_86105ef31ff8780a9fd3.png with policy now
+2024-01-08 15:14:19,461 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,461 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,461 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/P_curve_56_7714ed22fafb5d005937.png with policy now
+2024-01-08 15:14:19,514 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,514 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,514 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/R_curve_56_720682b3b4555c8d75e4.png with policy now
+2024-01-08 15:14:19,618 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,618 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,618 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/confusion_matrix_normalized_56_b0edb415b684f75bc200.png with policy now
+2024-01-08 15:14:19,716 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:19,717 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:19,717 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/confusion_matrix_56_f906cf82d24da9a56366.png with policy now
+2024-01-08 15:14:19,855 INFO    wandb-upload_1:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/fvmxa1xy-media/images/val_batch0_pred_56_e34cca4514629ccfe614.jpg
+2024-01-08 15:14:19,868 INFO    wandb-upload_3:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/8vk1f3iq-media/images/val_batch1_pred_56_c97c76d506634a948cc0.jpg
+2024-01-08 15:14:19,868 INFO    wandb-upload_2:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/z5l0gvuw-media/images/val_batch0_labels_56_30aecef772331a594166.jpg
+2024-01-08 15:14:19,878 INFO    wandb-upload_0:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/vymq5i44-media/images/val_batch1_labels_56_a264212a2da6f9163c16.jpg
+2024-01-08 15:14:19,964 INFO    wandb-upload_5:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/6wb1d140-media/images/F1_curve_56_86105ef31ff8780a9fd3.png
+2024-01-08 15:14:19,982 INFO    wandb-upload_4:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/rppty57v-media/images/PR_curve_56_35fc0817eb5000162a34.png
+2024-01-08 15:14:20,058 INFO    wandb-upload_7:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/2lf66pjw-media/images/R_curve_56_720682b3b4555c8d75e4.png
+2024-01-08 15:14:20,133 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/P_curve_56_7714ed22fafb5d005937.png
+2024-01-08 15:14:20,133 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/confusion_matrix_56_f906cf82d24da9a56366.png
+2024-01-08 15:14:20,134 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/PR_curve_56_35fc0817eb5000162a34.png
+2024-01-08 15:14:20,134 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/confusion_matrix_normalized_56_b0edb415b684f75bc200.png
+2024-01-08 15:14:20,134 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/R_curve_56_720682b3b4555c8d75e4.png
+2024-01-08 15:14:20,134 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/val_batch0_pred_56_e34cca4514629ccfe614.jpg
+2024-01-08 15:14:20,135 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/val_batch1_labels_56_a264212a2da6f9163c16.jpg
+2024-01-08 15:14:20,135 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/F1_curve_56_86105ef31ff8780a9fd3.png
+2024-01-08 15:14:20,135 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/val_batch1_pred_56_c97c76d506634a948cc0.jpg
+2024-01-08 15:14:20,135 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/val_batch0_labels_56_30aecef772331a594166.jpg
+2024-01-08 15:14:20,136 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images
+2024-01-08 15:14:20,145 INFO    wandb-upload_6:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/sq8lhpx3-media/images/P_curve_56_7714ed22fafb5d005937.png
+2024-01-08 15:14:20,240 INFO    wandb-upload_9:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/ree4wwkt-media/images/confusion_matrix_56_f906cf82d24da9a56366.png
+2024-01-08 15:14:20,284 INFO    wandb-upload_8:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/2d6fge5j-media/images/confusion_matrix_normalized_56_b0edb415b684f75bc200.png
+2024-01-08 15:14:20,597 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:20,598 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/images/results_56_5cc4f9ae9d522f488f56.png with policy now
+2024-01-08 15:14:20,598 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:20,748 INFO    wandb-upload_1:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/o25lzifi-media/images/PR_curve_56_35fc0817eb5000162a34.png
+2024-01-08 15:14:20,804 INFO    wandb-upload_0:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/oppr9fj2-media/images/val_batch1_labels_56_a264212a2da6f9163c16.jpg
+2024-01-08 15:14:20,834 INFO    wandb-upload_3:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/t84yo9bt-media/images/val_batch0_labels_56_30aecef772331a594166.jpg
+2024-01-08 15:14:20,835 INFO    wandb-upload_6:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/757xcz1k-media/images/val_batch1_pred_56_c97c76d506634a948cc0.jpg
+2024-01-08 15:14:20,852 INFO    wandb-upload_7:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/2ltbsdml-media/images/val_batch0_pred_56_e34cca4514629ccfe614.jpg
+2024-01-08 15:14:20,853 INFO    wandb-upload_9:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/m3ghqmut-media/images/confusion_matrix_56_f906cf82d24da9a56366.png
+2024-01-08 15:14:20,865 INFO    wandb-upload_4:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/va0jbfmn-media/images/F1_curve_56_86105ef31ff8780a9fd3.png
+2024-01-08 15:14:20,869 INFO    wandb-upload_2:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/z1xb1eug-media/images/R_curve_56_720682b3b4555c8d75e4.png
+2024-01-08 15:14:20,897 INFO    wandb-upload_5:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/j5oeaigl-media/images/P_curve_56_7714ed22fafb5d005937.png
+2024-01-08 15:14:20,898 INFO    wandb-upload_8:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/gkuxxj2x-media/images/confusion_matrix_normalized_56_b0edb415b684f75bc200.png
+2024-01-08 15:14:20,962 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-08 15:14:20,963 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: log_artifact
+2024-01-08 15:14:21,134 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:21,135 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/results_56_5cc4f9ae9d522f488f56.png
+2024-01-08 15:14:21,135 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images
+2024-01-08 15:14:21,176 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-08 15:14:21,194 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:21,387 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-08 15:14:21,404 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:21,409 INFO    wandb-upload_10:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/dnzafu8q-media/images/results_56_5cc4f9ae9d522f488f56.png
+2024-01-08 15:14:21,595 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-08 15:14:21,611 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:21,811 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-08 15:14:21,828 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 15:14:22,135 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves/F1-Confidence(B)_table_56_cbb367456b494c0495fb.table.json
+2024-01-08 15:14:22,136 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves/Precision-Recall(B)_table_56_b93270c7473e01186946.table.json
+2024-01-08 15:14:22,136 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves/Precision-Confidence(B)_table_56_39e03b481436dbe3a4a4.table.json
+2024-01-08 15:14:22,136 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves/Recall-Confidence(B)_table_56_29e802c4d3a80f7ad52d.table.json
+2024-01-08 15:14:22,137 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media
+2024-01-08 15:14:22,137 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves
+2024-01-08 15:14:22,137 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_created():271] file/dir created: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table
+2024-01-08 15:14:22,146 INFO    wandb-upload_1:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/h8c5n60k-media/images/results_56_5cc4f9ae9d522f488f56.png
+2024-01-08 15:14:22,474 INFO    wandb-upload_7:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/ublhq2ra-media/table/curves/F1-Confidence(B)_table_56_cbb367456b494c0495fb.table.json
+2024-01-08 15:14:22,478 INFO    wandb-upload_4:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/c346b49a-media/table/curves/Precision-Recall(B)_table_56_b93270c7473e01186946.table.json
+2024-01-08 15:14:22,495 INFO    wandb-upload_8:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/6zoq6i1t-media/table/curves/Precision-Confidence(B)_table_56_39e03b481436dbe3a4a4.table.json
+2024-01-08 15:14:22,500 INFO    wandb-upload_10:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/0jjgu8r8-media/table/curves/Recall-Confidence(B)_table_56_29e802c4d3a80f7ad52d.table.json
+2024-01-08 15:14:22,831 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-08 15:14:23,163 INFO    wandb-upload_3:40420 [upload_job.py:push():89] Uploaded file /home/users/maali/.local/share/wandb/artifacts/staging/tmpn0ov8_zv
+2024-01-08 15:14:23,807 INFO    SenderThread:40420 [sender.py:send_request_log_artifact():1458] logged artifact run_lgm6gz4u_model - {'id': 'QXJ0aWZhY3Q6Njg0OTEzMTE5', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODM3MTE1NQ==', 'latestArtifact': None}}
+2024-01-08 15:14:23,807 DEBUG   SenderThread:40420 [sender.py:send():382] send: config
+2024-01-08 15:14:23,808 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:14:23,808 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: log_artifact
+2024-01-08 15:14:24,769 INFO    wandb-upload_6:40420 [upload_job.py:push():89] Uploaded file /home/users/maali/.local/share/wandb/artifacts/staging/tmpdom9f7y_
+2024-01-08 15:14:26,988 INFO    SenderThread:40420 [sender.py:send_request_log_artifact():1458] logged artifact run-lgm6gz4u-curvesPrecisionRecallB_table - {'id': 'QXJ0aWZhY3Q6Njg0OTEzMTMz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODM3MTE2Mg==', 'latestArtifact': None}}
+2024-01-08 15:14:26,988 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:26,989 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/table/curves/Precision-Recall(B)_table_56_b93270c7473e01186946.table.json with policy now
+2024-01-08 15:14:26,989 DEBUG   SenderThread:40420 [sender.py:send():382] send: config
+2024-01-08 15:14:26,989 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: log_artifact
+2024-01-08 15:14:27,439 INFO    wandb-upload_2:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/urvf0h6n-media/table/curves/Precision-Recall(B)_table_56_b93270c7473e01186946.table.json
+2024-01-08 15:14:27,833 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-08 15:14:27,863 INFO    wandb-upload_5:40420 [upload_job.py:push():89] Uploaded file /home/users/maali/.local/share/wandb/artifacts/staging/tmpcdjl66f8
+2024-01-08 15:14:28,529 INFO    SenderThread:40420 [sender.py:send_request_log_artifact():1458] logged artifact run-lgm6gz4u-curvesF1ConfidenceB_table - {'id': 'QXJ0aWZhY3Q6Njg0OTEzMTUw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODM3MTE2OA==', 'latestArtifact': None}}
+2024-01-08 15:14:28,529 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:28,529 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/table/curves/F1-Confidence(B)_table_56_cbb367456b494c0495fb.table.json with policy now
+2024-01-08 15:14:28,530 DEBUG   SenderThread:40420 [sender.py:send():382] send: config
+2024-01-08 15:14:28,530 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: log_artifact
+2024-01-08 15:14:28,970 INFO    wandb-upload_7:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/jxp8z340-media/table/curves/F1-Confidence(B)_table_56_cbb367456b494c0495fb.table.json
+2024-01-08 15:14:29,396 INFO    wandb-upload_8:40420 [upload_job.py:push():89] Uploaded file /home/users/maali/.local/share/wandb/artifacts/staging/tmppslwsgat
+2024-01-08 15:14:30,063 INFO    SenderThread:40420 [sender.py:send_request_log_artifact():1458] logged artifact run-lgm6gz4u-curvesPrecisionConfidenceB_table - {'id': 'QXJ0aWZhY3Q6Njg0OTEzMTU5', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODM3MTE3Mg==', 'latestArtifact': None}}
+2024-01-08 15:14:30,063 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:30,064 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:14:30,064 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/table/curves/Precision-Confidence(B)_table_56_39e03b481436dbe3a4a4.table.json with policy now
+2024-01-08 15:14:30,065 DEBUG   SenderThread:40420 [sender.py:send():382] send: config
+2024-01-08 15:14:30,065 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: log_artifact
+2024-01-08 15:14:30,481 INFO    wandb-upload_3:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/b4osbwpj-media/table/curves/Precision-Confidence(B)_table_56_39e03b481436dbe3a4a4.table.json
+2024-01-08 15:14:30,953 INFO    wandb-upload_6:40420 [upload_job.py:push():89] Uploaded file /home/users/maali/.local/share/wandb/artifacts/staging/tmp9rrf0jx9
+2024-01-08 15:14:31,583 INFO    SenderThread:40420 [sender.py:send_request_log_artifact():1458] logged artifact run-lgm6gz4u-curvesRecallConfidenceB_table - {'id': 'QXJ0aWZhY3Q6Njg0OTEzMTY4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyODM3MTE3Nw==', 'latestArtifact': None}}
+2024-01-08 15:14:31,583 DEBUG   SenderThread:40420 [sender.py:send():382] send: files
+2024-01-08 15:14:31,584 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file media/table/curves/Recall-Confidence(B)_table_56_29e802c4d3a80f7ad52d.table.json with policy now
+2024-01-08 15:14:31,584 DEBUG   SenderThread:40420 [sender.py:send():382] send: telemetry
+2024-01-08 15:14:31,584 DEBUG   SenderThread:40420 [sender.py:send():382] send: exit
+2024-01-08 15:14:31,585 INFO    SenderThread:40420 [sender.py:send_exit():589] handling exit code: 0
+2024-01-08 15:14:31,585 INFO    SenderThread:40420 [sender.py:send_exit():591] handling runtime: 111
+2024-01-08 15:14:31,585 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:31,585 INFO    SenderThread:40420 [sender.py:send_exit():597] send defer
+2024-01-08 15:14:31,586 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: poll_exit
+2024-01-08 15:14:31,586 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:31,586 DEBUG   SenderThread:40420 [sender.py:send():382] send: stats
+2024-01-08 15:14:31,587 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-08 15:14:31,591 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:31,591 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-08 15:14:31,591 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 1
+2024-01-08 15:14:31,592 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:31,592 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-08 15:14:31,592 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:31,592 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-08 15:14:31,592 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 2
+2024-01-08 15:14:31,592 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:31,592 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-08 15:14:31,593 INFO    HandlerThread:40420 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-08 15:14:31,593 DEBUG   SystemMonitor:40420 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-08 15:14:31,593 DEBUG   SystemMonitor:40420 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-08 15:14:31,593 INFO    HandlerThread:40420 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-08 15:14:31,595 INFO    HandlerThread:40420 [interfaces.py:finish():202] Joined disk monitor
+2024-01-08 15:14:31,808 INFO    HandlerThread:40420 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-08 15:14:31,808 INFO    HandlerThread:40420 [interfaces.py:finish():202] Joined memory monitor
+2024-01-08 15:14:31,808 INFO    HandlerThread:40420 [interfaces.py:finish():202] Joined network monitor
+2024-01-08 15:14:31,809 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:31,809 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-08 15:14:31,809 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 3
+2024-01-08 15:14:31,810 DEBUG   SenderThread:40420 [sender.py:send():382] send: stats
+2024-01-08 15:14:31,810 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:31,810 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-08 15:14:31,812 DEBUG   SenderThread:40420 [sender.py:send():382] send: history
+2024-01-08 15:14:31,812 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 15:14:31,813 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:31,813 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:31,814 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-08 15:14:31,814 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 4
+2024-01-08 15:14:31,814 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:31,814 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-08 15:14:31,814 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:31,814 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-08 15:14:31,814 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 5
+2024-01-08 15:14:31,814 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:31,814 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-08 15:14:31,820 DEBUG   SenderThread:40420 [sender.py:send():382] send: summary
+2024-01-08 15:14:31,820 INFO    SenderThread:40420 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 15:14:31,821 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:31,821 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-08 15:14:31,821 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 6
+2024-01-08 15:14:31,821 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:31,821 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-08 15:14:31,821 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:31,821 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-08 15:14:31,826 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 15:14:31,834 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-08 15:14:31,987 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 7
+2024-01-08 15:14:31,987 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: poll_exit
+2024-01-08 15:14:31,987 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:31,987 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-08 15:14:31,988 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:31,988 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-08 15:14:32,007 INFO    wandb-upload_0:40420 [upload_job.py:push():131] Uploaded file /tmp/tmp2vud6no4wandb/e0p8ga9u-media/table/curves/Recall-Confidence(B)_table_56_29e802c4d3a80f7ad52d.table.json
+2024-01-08 15:14:32,145 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/config.yaml
+2024-01-08 15:14:32,145 INFO    Thread-37 :40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:32,839 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-08 15:14:32,910 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 8
+2024-01-08 15:14:32,911 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: poll_exit
+2024-01-08 15:14:32,911 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:32,911 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-08 15:14:32,912 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:32,912 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-08 15:14:32,912 INFO    SenderThread:40420 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-08 15:14:32,913 INFO    SenderThread:40420 [job_builder.py:_get_source_type():439] no source found
+2024-01-08 15:14:32,913 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 9
+2024-01-08 15:14:32,913 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:32,914 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-08 15:14:32,914 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:32,914 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-08 15:14:32,914 INFO    SenderThread:40420 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-08 15:14:33,146 INFO    SenderThread:40420 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:33,147 INFO    SenderThread:40420 [dir_watcher.py:finish():388] scan: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files
+2024-01-08 15:14:33,147 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-metadata.json wandb-metadata.json
+2024-01-08 15:14:33,147 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/config.yaml config.yaml
+2024-01-08 15:14:33,147 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/requirements.txt requirements.txt
+2024-01-08 15:14:33,150 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json wandb-summary.json
+2024-01-08 15:14:33,154 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log output.log
+2024-01-08 15:14:33,161 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves/Precision-Recall(B)_table_56_b93270c7473e01186946.table.json media/table/curves/Precision-Recall(B)_table_56_b93270c7473e01186946.table.json
+2024-01-08 15:14:33,161 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves/Recall-Confidence(B)_table_56_29e802c4d3a80f7ad52d.table.json media/table/curves/Recall-Confidence(B)_table_56_29e802c4d3a80f7ad52d.table.json
+2024-01-08 15:14:33,161 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves/Precision-Confidence(B)_table_56_39e03b481436dbe3a4a4.table.json media/table/curves/Precision-Confidence(B)_table_56_39e03b481436dbe3a4a4.table.json
+2024-01-08 15:14:33,161 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/table/curves/F1-Confidence(B)_table_56_cbb367456b494c0495fb.table.json media/table/curves/F1-Confidence(B)_table_56_cbb367456b494c0495fb.table.json
+2024-01-08 15:14:33,161 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/val_batch1_labels_56_a264212a2da6f9163c16.jpg media/images/val_batch1_labels_56_a264212a2da6f9163c16.jpg
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/labels_1_3bb62bb88f8978572d16.jpg media/images/labels_1_3bb62bb88f8978572d16.jpg
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/val_batch0_labels_56_30aecef772331a594166.jpg media/images/val_batch0_labels_56_30aecef772331a594166.jpg
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/val_batch0_pred_56_e34cca4514629ccfe614.jpg media/images/val_batch0_pred_56_e34cca4514629ccfe614.jpg
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/P_curve_56_7714ed22fafb5d005937.png media/images/P_curve_56_7714ed22fafb5d005937.png
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/results_56_5cc4f9ae9d522f488f56.png media/images/results_56_5cc4f9ae9d522f488f56.png
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/train_batch1_1_b06be849a685b891cb85.jpg media/images/train_batch1_1_b06be849a685b891cb85.jpg
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/train_batch0_1_e35f1dad3fdf86895a47.jpg media/images/train_batch0_1_e35f1dad3fdf86895a47.jpg
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/PR_curve_56_35fc0817eb5000162a34.png media/images/PR_curve_56_35fc0817eb5000162a34.png
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/val_batch1_pred_56_c97c76d506634a948cc0.jpg media/images/val_batch1_pred_56_c97c76d506634a948cc0.jpg
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/confusion_matrix_56_f906cf82d24da9a56366.png media/images/confusion_matrix_56_f906cf82d24da9a56366.png
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/train_batch2_1_4abfc72d352e170cebad.jpg media/images/train_batch2_1_4abfc72d352e170cebad.jpg
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/R_curve_56_720682b3b4555c8d75e4.png media/images/R_curve_56_720682b3b4555c8d75e4.png
+2024-01-08 15:14:33,162 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/F1_curve_56_86105ef31ff8780a9fd3.png media/images/F1_curve_56_86105ef31ff8780a9fd3.png
+2024-01-08 15:14:33,163 INFO    SenderThread:40420 [dir_watcher.py:finish():402] scan save: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/media/images/confusion_matrix_normalized_56_b0edb415b684f75bc200.png media/images/confusion_matrix_normalized_56_b0edb415b684f75bc200.png
+2024-01-08 15:14:33,163 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 10
+2024-01-08 15:14:33,163 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:33,163 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-08 15:14:33,163 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:33,163 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-08 15:14:33,163 INFO    SenderThread:40420 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-08 15:14:33,500 INFO    wandb-upload_8:40420 [upload_job.py:push():131] Uploaded file /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/wandb-summary.json
+2024-01-08 15:14:33,507 INFO    wandb-upload_5:40420 [upload_job.py:push():131] Uploaded file /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/config.yaml
+2024-01-08 15:14:33,512 INFO    wandb-upload_10:40420 [upload_job.py:push():131] Uploaded file /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/requirements.txt
+2024-01-08 15:14:33,521 INFO    wandb-upload_1:40420 [upload_job.py:push():131] Uploaded file /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/files/output.log
+2024-01-08 15:14:33,722 INFO    Thread-36 :40420 [sender.py:transition_state():617] send defer: 11
+2024-01-08 15:14:33,722 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:33,722 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-08 15:14:33,723 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:33,723 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-08 15:14:33,723 INFO    SenderThread:40420 [file_pusher.py:join():181] waiting for file pusher
+2024-01-08 15:14:33,723 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 12
+2024-01-08 15:14:33,723 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:33,724 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-08 15:14:33,724 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:33,724 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-08 15:14:33,724 INFO    SenderThread:40420 [file_stream.py:finish():595] file stream finish called
+2024-01-08 15:14:33,840 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-08 15:14:34,224 INFO    SenderThread:40420 [file_stream.py:finish():599] file stream finish is done
+2024-01-08 15:14:34,224 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 13
+2024-01-08 15:14:34,225 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: poll_exit
+2024-01-08 15:14:34,225 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:34,225 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-08 15:14:34,226 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:34,226 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-08 15:14:34,226 INFO    SenderThread:40420 [sender.py:transition_state():617] send defer: 14
+2024-01-08 15:14:34,226 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: defer
+2024-01-08 15:14:34,226 DEBUG   SenderThread:40420 [sender.py:send():382] send: final
+2024-01-08 15:14:34,226 INFO    HandlerThread:40420 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-08 15:14:34,226 DEBUG   SenderThread:40420 [sender.py:send():382] send: footer
+2024-01-08 15:14:34,227 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: defer
+2024-01-08 15:14:34,227 INFO    SenderThread:40420 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-08 15:14:34,228 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-08 15:14:34,228 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: poll_exit
+2024-01-08 15:14:34,230 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 15:14:34,231 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: server_info
+2024-01-08 15:14:34,231 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: server_info
+2024-01-08 15:14:34,272 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-08 15:14:34,273 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-08 15:14:34,274 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: job_info
+2024-01-08 15:14:34,378 DEBUG   SenderThread:40420 [sender.py:send_request():409] send_request: job_info
+2024-01-08 15:14:34,379 DEBUG   HandlerThread:40420 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-08 15:14:34,379 INFO    HandlerThread:40420 [handler.py:finish():866] shutting down handler
+2024-01-08 15:14:35,275 INFO    WriterThread:40420 [datastore.py:close():294] close: /home/users/maali/TRAFFICLIGHTDETECTION/wandb/run-20240108_151222-lgm6gz4u/run-lgm6gz4u.wandb
+2024-01-08 15:14:35,378 INFO    SenderThread:40420 [sender.py:finish():1548] shutting down sender
+2024-01-08 15:14:35,378 INFO    SenderThread:40420 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-08 15:14:35,378 INFO    SenderThread:40420 [file_pusher.py:join():181] waiting for file pusher

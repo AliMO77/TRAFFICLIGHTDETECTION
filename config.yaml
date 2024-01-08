@@ -1,0 +1,12 @@
+path:  /home/users/maali/TRAFFICLIGHTDETECTION/sim_training_data/data
+train: train/images
+val :  val/images
+#test : images/test
+
+
+nc: 3
+names : 
+  0:  Green
+  1:  Yellow
+  2:  Red
+  

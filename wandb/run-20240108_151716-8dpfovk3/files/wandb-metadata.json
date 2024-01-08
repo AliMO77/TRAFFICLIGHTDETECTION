@@ -1,0 +1,185 @@
+{
+    "os": "Linux-4.18.0-372.32.1.el8_6.x86_64-x86_64-with-glibc2.2.5",
+    "python": "3.8.6",
+    "heartbeatAt": "2024-01-08T14:17:17.453542",
+    "startedAt": "2024-01-08T14:17:16.838088",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "iris-178",
+    "username": "maali",
+    "executable": "/mnt/irisgpfs/users/maali/ultra_env/bin/python",
+    "cpu_count": 28,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 3243.546178571429,
+        "min": 1000.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3700.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3393.965,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3010.294,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2977.21,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3040.732,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3007.412,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3062.235,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2989.353,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3044.723,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2967.466,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3072.612,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2998.977,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3050.177,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3011.118,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3050.96,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3052.511,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3140.259,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3053.243,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3105.431,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3087.013,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3103.602,
+            "min": 1000.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 29.40420913696289,
+            "used": 13.215583801269531
+        }
+    },
+    "gpu": "Tesla V100-SXM2-16GB",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-16GB",
+            "memory_total": 17179869184
+        },
+        {
+            "name": "Tesla V100-SXM2-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 754.5338554382324
+    }
+}

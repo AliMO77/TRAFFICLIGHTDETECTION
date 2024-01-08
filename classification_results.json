@@ -1,0 +1,12 @@
+{
+    "Overall Accuracy": 100.0,
+    "Green": {
+        "accuracy": 100.0
+    },
+    "Yellow": {
+        "accuracy": 100.0
+    },
+    "Red": {
+        "accuracy": 100.0
+    }
+}
